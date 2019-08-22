@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           xmlns:tuscany="http://tuscany.apache.org/xmlns/sca/1.1"
+           targetNamespace="http://com.jnshu.tuscanyRMIService"
+           name="tuscanyRMIService">
+
+    <component name="tuscanyRMIService">
+
+        <!--该服务的spring配置文件地址-->
+        <implementation.spring location="applicationContext.xml"/>
+        <!-- 绑定服务-->
+        <service name="MailService">
+            <!--服务的接口-->
+            <interface.java interface="com.jnshu.service.MailService"/>
+            <tuscany:binding.rmi uri="rmi://101.132.124.42:38488/mailRMI"/>
+        </service>
+        <!-- 绑定服务-->
+        <service name="MessageService">
+            <!--服务的接口-->
+            <interface.java interface="com.jnshu.service.MessageService"/>
+            <tuscany:binding.rmi uri="rmi://101.132.124.42:38488/messageRMI"/>
+        </service>
+        <service name="RedisService">
+            <!--服务的接口-->
+            <interface.java interface="com.jnshu.service.RedisService"/>
+            <tuscany:binding.rmi uri="rmi://101.132.124.42:38488/redisRMI"/>
+        </service>
+        <service name="StudentService">
+            <!--服务的接口-->
+            <interface.java interface="com.jnshu.service.StudentService"/>
+            <tuscany:binding.rmi uri="rmi://101.132.124.42:38488/studentRMI"/>
+    </service>
+        <service name="UploadService">
+            <!--服务的接口-->
+            <interface.java interface="com.jnshu.service.UploadService"/>
+            <tuscany:binding.rmi uri="rmi://101.132.124.42:38488/uploadRMI"/>
+        </service>
+        <service name="UserService">
+            <!--服务的接口-->
+            <interface.java interface="com.jnshu.service.UserService"/>
+            <tuscany:binding.rmi uri="rmi://101.132.124.42:38488/userRMI"/>
+        </service>
+    </component>
+
+</composite>

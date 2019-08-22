@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite
+        xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+        targetNamespace="http://com.jnshu.task9"
+        xmlns:tuscany="http://tuscany.apache.org/xmlns/sca/1.1"
+        name="CalculatorServiceComponent">
+
+    <!--xmlns="http://www.osoa.org/xmlns/sca/1.0"-->
+<component name="CalculatorServiceComponent">
+<implementation.java class="com.jnshu.serviceimpl.CalculatorServiceImpl"/>
+    <!--暴露一个包括host，port，serviceName,这里必须和你的实现类一个名字-->
+    <service name="CalculatorServiceImpl" >
+        <interface.java interface="com.jnshu.service.CalculatorService"/>
+        <tuscany:binding.rmi uri="rmi://127.0.0.1:8099/CalculatorRMIService"/>
+    </service>
+<reference name="addService" target="AddComponent"/>
+<reference name="divideService" target="DivideComponent"/>
+<reference name="multiplyService" target="MultiplyComponent"/>
+<reference name="subtractService" target="SubtractComponent"/>
+</component>
+    
+<component name="AddComponent">
+<implementation.java class="com.jnshu.serviceimpl.AddServiceImpl"/>
+</component>
+
+<component name="DivideComponent">
+<implementation.java class="com.jnshu.serviceimpl.DivideServiceImpl"/>
+</component>
+
+<component name="MultiplyComponent">
+<implementation.java class="com.jnshu.serviceimpl.MultiplyServiceImpl"/>
+</component>
+
+<component name="SubtractComponent">
+<implementation.java class="com.jnshu.serviceimpl.SubtractServiceImpl"/>
+</component>
+</composite>
