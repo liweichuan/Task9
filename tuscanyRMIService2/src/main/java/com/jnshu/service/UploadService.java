@@ -1,13 +1,14 @@
 package com.jnshu.service;
 
 import com.aliyun.oss.model.OSSObjectSummary;
+import org.oasisopen.sca.annotation.Remotable;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-
+@Remotable
 public interface UploadService {
     //以文件流的方式上传文件
     String uploadFile(MultipartFile file);

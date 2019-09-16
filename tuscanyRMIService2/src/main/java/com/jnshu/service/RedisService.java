@@ -1,9 +1,11 @@
 package com.jnshu.service;
 
 
+import org.oasisopen.sca.annotation.Remotable;
+
 import java.util.List;
 
-
+@Remotable
 public interface RedisService {
     //添加缓存，同时指定缓存的时间
     Boolean add(String key, Object value, long time);

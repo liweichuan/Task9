@@ -4,7 +4,6 @@ package com.jnshu.service;
 import com.jnshu.pojo.Result;
 import com.jnshu.pojo.User;
 
-
 public interface UserService {
     //注册
     Long register(User user);

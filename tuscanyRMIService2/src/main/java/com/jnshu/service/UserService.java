@@ -3,8 +3,9 @@ package com.jnshu.service;
 
 import com.jnshu.pojo.Result;
 import com.jnshu.pojo.User;
+import org.oasisopen.sca.annotation.Remotable;
 
-
+@Remotable
 public interface UserService {
     //注册
     Long register(User user);
