@@ -1,0 +1,505 @@
+2019-09-05 20:51:31.061  INFO 10088 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 10088 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 20:51:31.079 DEBUG 10088 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 20:51:31.080  INFO 10088 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 20:51:31.176  INFO 10088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 20:51:31.176  INFO 10088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 20:51:34.711  INFO 10088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 20:51:34.763  INFO 10088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 20:51:34.764  INFO 10088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 20:51:34.775  INFO 10088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 20:51:34.778  INFO 10088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 20:51:34.778  INFO 10088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 20:51:34.778  INFO 10088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 20:51:34.783  INFO 10088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 20:51:35.380  INFO 10088 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 20:51:35.390  INFO 10088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 20:51:35.391  INFO 10088 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4215 ms
+2019-09-05 20:51:35.656  INFO 10088 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 20:51:38.416  INFO 10088 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 20:51:38.809  INFO 10088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 20:51:39.112  INFO 10088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 20:51:39.180  INFO 10088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 20:51:39.184  INFO 10088 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 8.753 seconds (JVM running for 11.018)
+2019-09-05 20:52:03.173  INFO 12704 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 12704 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 20:52:03.176 DEBUG 12704 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 20:52:03.177  INFO 12704 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 20:52:03.245  INFO 12704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 20:52:03.245  INFO 12704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 20:52:04.824  INFO 12704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 20:52:04.845  INFO 12704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 20:52:04.846  INFO 12704 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 20:52:04.853  INFO 12704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 20:52:04.853  INFO 12704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 20:52:04.853  INFO 12704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 20:52:04.853  INFO 12704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 20:52:04.856  INFO 12704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 20:52:05.147  INFO 12704 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 20:52:05.153  INFO 12704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 20:52:05.153  INFO 12704 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1907 ms
+2019-09-05 20:52:05.247  INFO 12704 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 20:52:07.582  INFO 12704 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 20:52:08.276  INFO 12704 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 20:52:08.703  INFO 12704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 20:52:08.819  INFO 12704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 20:52:08.827  INFO 12704 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 6.506 seconds (JVM running for 7.851)
+2019-09-05 20:52:18.743  INFO 12704 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 20:52:18.743  INFO 12704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 20:52:18.753  INFO 12704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-05 20:52:18.850 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:52:18.987 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:52:19.042 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:52:19.046 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:52:19.052 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:52:19.078 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:52:36.229 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.insert           : ==>  Preparing: insert into user(username,password,phone) values(?,?,?) 
+2019-09-05 20:52:36.237 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.insert           : ==> Parameters: 傅雯(String), 102222(String), 13555555(String)
+2019-09-05 20:52:36.288 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.insert           : <==    Updates: 1
+2019-09-05 20:52:36.300 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:52:36.300 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:52:36.326 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:52:36.327 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:52:36.327 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:52:36.353 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:52:38.686 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 20:52:38.690 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 20:52:38.716 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 20:52:45.492 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.update           : ==>  Preparing: update user set username=?,password=?,phone=? where id=? 
+2019-09-05 20:52:45.496 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.update           : ==> Parameters: 傅雯(String), 102222(String), 136666666(String), 20(Integer)
+2019-09-05 20:52:45.546 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.update           : <==    Updates: 1
+2019-09-05 20:52:45.554 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:52:45.554 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:52:45.579 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:52:45.580 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:52:45.581 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:52:45.607 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:52:48.252 DEBUG 12704 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 20:52:48.257 DEBUG 12704 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 20:52:48.282 DEBUG 12704 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 20:52:52.774 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.update           : ==>  Preparing: update user set username=?,password=?,phone=? where id=? 
+2019-09-05 20:52:52.777 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.update           : ==> Parameters: 傅雯(String), 102222(String), 136666666(String), 20(Integer)
+2019-09-05 20:52:52.829 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.update           : <==    Updates: 1
+2019-09-05 20:52:52.838 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:52:52.838 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:52:52.863 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:52:52.864 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:52:52.865 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:52:52.889 DEBUG 12704 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:52:55.691 DEBUG 12704 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 20:52:55.692 DEBUG 12704 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 20:52:55.716 DEBUG 12704 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 20:52:56.907 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.update           : ==>  Preparing: update user set username=?,password=?,phone=? where id=? 
+2019-09-05 20:52:56.908 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.update           : ==> Parameters: 傅雯(String), 102222(String), 136666666(String), 20(Integer)
+2019-09-05 20:52:56.957 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.update           : <==    Updates: 1
+2019-09-05 20:52:56.965 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:52:56.966 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:52:56.991 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:52:56.992 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:52:56.993 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:52:57.018 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:53:03.986 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:53:03.987 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:53:04.014 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:53:04.015 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:53:04.015 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 5(Integer), 5(Integer)
+2019-09-05 20:53:04.040 DEBUG 12704 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:53:05.376 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:53:05.379 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:53:05.406 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:53:05.407 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:53:05.407 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 10(Integer), 5(Integer)
+2019-09-05 20:53:05.431 DEBUG 12704 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll          : <==      Total: 4
+2019-09-05 20:53:07.020 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:53:07.022 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:53:07.046 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:53:07.047 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:53:07.048 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:53:07.071 DEBUG 12704 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:53:08.367 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 20:53:08.369 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 18(Integer)
+2019-09-05 20:53:08.395 DEBUG 12704 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 20:53:09.585 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.update           : ==>  Preparing: update user set username=?,password=?,phone=? where id=? 
+2019-09-05 20:53:09.586 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.update           : ==> Parameters: 徐晨(String), 102222(String), 135555555(String), 18(Integer)
+2019-09-05 20:53:09.636 DEBUG 12704 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.update           : <==    Updates: 1
+2019-09-05 20:53:09.644 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:53:09.644 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:53:09.668 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:53:09.669 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:53:09.669 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:53:09.694 DEBUG 12704 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:58:25.783  INFO 14412 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 14412 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 20:58:25.787 DEBUG 14412 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 20:58:25.787  INFO 14412 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 20:58:25.894  INFO 14412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 20:58:25.895  INFO 14412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 20:58:28.707  INFO 14412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 20:58:28.746  INFO 14412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 20:58:28.747  INFO 14412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 20:58:28.758  INFO 14412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 20:58:28.758  INFO 14412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 20:58:28.758  INFO 14412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 20:58:28.759  INFO 14412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 20:58:28.762  INFO 14412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 20:58:29.137  INFO 14412 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 20:58:29.143  INFO 14412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 20:58:29.143  INFO 14412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3248 ms
+2019-09-05 20:58:29.254  INFO 14412 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 20:58:31.963  INFO 14412 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 20:58:32.232  INFO 14412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 20:58:32.505  INFO 14412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 20:58:32.569  INFO 14412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 20:58:32.572  INFO 14412 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 7.345 seconds (JVM running for 8.657)
+2019-09-05 20:58:57.669  INFO 14412 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 20:58:57.670  INFO 14412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 20:58:57.679  INFO 14412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-05 20:58:57.767 DEBUG 14412 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 20:58:57.883 DEBUG 14412 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 20:58:57.943 DEBUG 14412 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 20:58:57.950 DEBUG 14412 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 20:58:57.955 DEBUG 14412 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 20:58:57.982 DEBUG 14412 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 20:59:01.378 DEBUG 14412 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 20:59:01.383 DEBUG 14412 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 20:59:01.407 DEBUG 14412 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 21:02:07.035  INFO 6448 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 6448 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 21:02:07.039 DEBUG 6448 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 21:02:07.039  INFO 6448 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 21:02:07.166  INFO 6448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 21:02:07.166  INFO 6448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 21:02:09.728  INFO 6448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 21:02:09.750  INFO 6448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 21:02:09.750  INFO 6448 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 21:02:09.757  INFO 6448 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 21:02:09.757  INFO 6448 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 21:02:09.757  INFO 6448 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 21:02:09.757  INFO 6448 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 21:02:09.760  INFO 6448 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 21:02:10.016  INFO 6448 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 21:02:10.023  INFO 6448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 21:02:10.023  INFO 6448 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2857 ms
+2019-09-05 21:02:10.122  INFO 6448 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 21:02:12.366  INFO 6448 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 21:02:12.634  INFO 6448 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 21:02:12.835  INFO 6448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 21:02:12.898  INFO 6448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 21:02:12.901  INFO 6448 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 6.454 seconds (JVM running for 7.771)
+2019-09-05 21:02:21.055  INFO 6448 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 21:02:21.056  INFO 6448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 21:02:21.062  INFO 6448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-09-05 21:02:21.199 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:02:21.405 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:02:21.470 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:02:21.484 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:02:21.492 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:02:21.517 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:02:25.026 DEBUG 6448 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 21:02:25.030 DEBUG 6448 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 21:02:25.052 DEBUG 6448 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 21:02:26.686 DEBUG 6448 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.update           : ==>  Preparing: update user set username=?,password=?,phone=? where id=? 
+2019-09-05 21:02:26.691 DEBUG 6448 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.update           : ==> Parameters: 傅雯(String), 102222(String), 136666666(String), 20(Integer)
+2019-09-05 21:02:26.736 DEBUG 6448 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.update           : <==    Updates: 1
+2019-09-05 21:02:26.746 DEBUG 6448 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:02:26.748 DEBUG 6448 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:02:26.771 DEBUG 6448 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:02:26.773 DEBUG 6448 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:02:26.774 DEBUG 6448 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:02:26.794 DEBUG 6448 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:02:29.522 DEBUG 6448 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 21:02:29.524 DEBUG 6448 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 21:02:29.546 DEBUG 6448 --- [http-nio-8080-exec-8] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 21:02:31.555 DEBUG 6448 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.update           : ==>  Preparing: update user set username=?,password=?,phone=? where id=? 
+2019-09-05 21:02:31.557 DEBUG 6448 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.update           : ==> Parameters: 傅雯(String), 102222(String), 136666666(String), 20(Integer)
+2019-09-05 21:02:31.616 DEBUG 6448 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.update           : <==    Updates: 1
+2019-09-05 21:02:31.624 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:02:31.625 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:02:31.647 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:02:31.649 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:02:31.649 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:02:31.674 DEBUG 6448 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:03:45.263  INFO 13620 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 13620 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 21:03:45.266 DEBUG 13620 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 21:03:45.267  INFO 13620 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 21:03:45.422  INFO 13620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 21:03:45.423  INFO 13620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 21:03:48.222  INFO 13620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 21:03:48.263  INFO 13620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 21:03:48.263  INFO 13620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 21:03:48.275  INFO 13620 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 21:03:48.275  INFO 13620 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 21:03:48.276  INFO 13620 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 21:03:48.276  INFO 13620 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 21:03:48.281  INFO 13620 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 21:03:48.599  INFO 13620 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 21:03:48.603  INFO 13620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 21:03:48.604  INFO 13620 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3181 ms
+2019-09-05 21:03:48.722  INFO 13620 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 21:03:50.940  INFO 13620 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 21:03:51.182  INFO 13620 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 21:03:51.413  INFO 13620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 21:03:51.474  INFO 13620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 21:03:51.477  INFO 13620 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 6.745 seconds (JVM running for 8.026)
+2019-09-05 21:03:57.674  INFO 13620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 21:03:57.675  INFO 13620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 21:03:57.684  INFO 13620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-05 21:03:57.788 DEBUG 13620 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:03:57.885 DEBUG 13620 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:03:57.936 DEBUG 13620 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:03:57.940 DEBUG 13620 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:03:57.946 DEBUG 13620 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:03:57.975 DEBUG 13620 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:04:01.575 DEBUG 13620 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 21:04:01.579 DEBUG 13620 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 21:04:01.602 DEBUG 13620 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 21:04:03.109 DEBUG 13620 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.update           : ==>  Preparing: update user set username=?,password=?,phone=? where id=? 
+2019-09-05 21:04:03.114 DEBUG 13620 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.update           : ==> Parameters: 傅雯(String), 102222(String), 136666666(String), 20(Integer)
+2019-09-05 21:04:03.167 DEBUG 13620 --- [http-nio-8080-exec-5] c.j.m.mapper.UserMapper.update           : <==    Updates: 1
+2019-09-05 21:04:03.178 DEBUG 13620 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:04:03.179 DEBUG 13620 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:04:03.204 DEBUG 13620 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:04:03.206 DEBUG 13620 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:04:03.206 DEBUG 13620 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:04:03.230 DEBUG 13620 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:09:51.912  INFO 1780 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 1780 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 21:09:51.916 DEBUG 1780 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 21:09:51.917  INFO 1780 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 21:09:52.029  INFO 1780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 21:09:52.029  INFO 1780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 21:09:54.249  INFO 1780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 21:09:54.280  INFO 1780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 21:09:54.280  INFO 1780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 21:09:54.289  INFO 1780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 21:09:54.289  INFO 1780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 21:09:54.289  INFO 1780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 21:09:54.289  INFO 1780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 21:09:54.292  INFO 1780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 21:09:54.649  INFO 1780 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 21:09:54.653  INFO 1780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 21:09:54.654  INFO 1780 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2624 ms
+2019-09-05 21:09:54.749  INFO 1780 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 21:09:57.238  INFO 1780 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 21:09:57.497  INFO 1780 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 21:09:57.716  INFO 1780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 21:09:57.775  INFO 1780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 21:09:57.778  INFO 1780 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 6.419 seconds (JVM running for 7.82)
+2019-09-05 21:10:13.719  INFO 1780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 21:10:13.720  INFO 1780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 21:10:13.729  INFO 1780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-05 21:10:13.819 DEBUG 1780 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:10:13.947 DEBUG 1780 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:10:14.000 DEBUG 1780 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:10:14.002 DEBUG 1780 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:10:14.008 DEBUG 1780 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:10:14.032 DEBUG 1780 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:10:16.731 DEBUG 1780 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 21:10:16.735 DEBUG 1780 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 21:10:16.758 DEBUG 1780 --- [http-nio-8080-exec-4] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 21:11:33.970  INFO 3884 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 3884 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 21:11:33.973 DEBUG 3884 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 21:11:33.973  INFO 3884 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 21:11:34.069  INFO 3884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 21:11:34.070  INFO 3884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 21:11:36.728  INFO 3884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 21:11:36.766  INFO 3884 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 21:11:36.768  INFO 3884 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 21:11:36.782  INFO 3884 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 21:11:36.783  INFO 3884 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 21:11:36.785  INFO 3884 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 21:11:36.786  INFO 3884 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 21:11:36.792  INFO 3884 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 21:11:37.092  INFO 3884 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 21:11:37.097  INFO 3884 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 21:11:37.098  INFO 3884 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3027 ms
+2019-09-05 21:11:37.185  INFO 3884 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 21:11:39.459  INFO 3884 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 21:11:39.744  INFO 3884 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 21:11:40.009  INFO 3884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 21:11:40.074  INFO 3884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 21:11:40.078  INFO 3884 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 6.626 seconds (JVM running for 7.867)
+2019-09-05 21:11:46.867  INFO 3884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 21:11:46.868  INFO 3884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 21:11:46.877  INFO 3884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-05 21:11:46.966 DEBUG 3884 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:11:47.112 DEBUG 3884 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:11:47.170 DEBUG 3884 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:11:47.174 DEBUG 3884 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:11:47.179 DEBUG 3884 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:11:47.205 DEBUG 3884 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:11:51.229 DEBUG 3884 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 21:11:51.233 DEBUG 3884 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 21:11:51.257 DEBUG 3884 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 21:14:40.386  INFO 10424 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 10424 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 21:14:40.393 DEBUG 10424 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 21:14:40.394  INFO 10424 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 21:14:40.505  INFO 10424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 21:14:40.505  INFO 10424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 21:14:42.584  INFO 10424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 21:14:42.606  INFO 10424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 21:14:42.607  INFO 10424 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 21:14:42.614  INFO 10424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 21:14:42.614  INFO 10424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 21:14:42.615  INFO 10424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 21:14:42.615  INFO 10424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 21:14:42.618  INFO 10424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 21:14:42.852  INFO 10424 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 21:14:42.858  INFO 10424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 21:14:42.858  INFO 10424 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2352 ms
+2019-09-05 21:14:42.949  INFO 10424 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 21:14:45.170  INFO 10424 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 21:14:45.437  INFO 10424 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 21:14:45.660  INFO 10424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 21:14:45.717  INFO 10424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 21:14:45.720  INFO 10424 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 5.849 seconds (JVM running for 7.09)
+2019-09-05 21:14:55.883  INFO 10424 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 21:14:55.884  INFO 10424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 21:14:55.894  INFO 10424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-09-05 21:14:55.980 DEBUG 10424 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:14:56.080 DEBUG 10424 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:14:56.142 DEBUG 10424 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:14:56.146 DEBUG 10424 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:14:56.152 DEBUG 10424 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:14:56.178 DEBUG 10424 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:14:58.368 DEBUG 10424 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findUserById     : ==>  Preparing: select * from user where id=? 
+2019-09-05 21:14:58.372 DEBUG 10424 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findUserById     : ==> Parameters: 20(Integer)
+2019-09-05 21:14:58.397 DEBUG 10424 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findUserById     : <==      Total: 1
+2019-09-05 21:16:46.826  INFO 9924 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Starting MybatispageApplication on DESKTOP-RC36OUC with PID 9924 (C:\Task9\mybatispage\target\classes started by liweichuan in C:\Task9\mybatispage)
+2019-09-05 21:16:46.830 DEBUG 9924 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-05 21:16:46.830  INFO 9924 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : The following profiles are active: test
+2019-09-05 21:16:46.941  INFO 9924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-05 21:16:46.941  INFO 9924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-05 21:16:49.109  INFO 9924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-05 21:16:49.133  INFO 9924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-05 21:16:49.133  INFO 9924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-05 21:16:49.141  INFO 9924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-05 21:16:49.141  INFO 9924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-05 21:16:49.142  INFO 9924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-05 21:16:49.142  INFO 9924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-05 21:16:49.145  INFO 9924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-05 21:16:49.385  INFO 9924 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-05 21:16:49.391  INFO 9924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-05 21:16:49.392  INFO 9924 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2450 ms
+2019-09-05 21:16:49.521  INFO 9924 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-05 21:16:54.551  INFO 9924 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-05 21:16:54.848  INFO 9924 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-05 21:16:55.074  INFO 9924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-05 21:16:55.137  INFO 9924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-05 21:16:55.140  INFO 9924 --- [restartedMain] c.j.mybatispage.MybatispageApplication   : Started MybatispageApplication in 8.822 seconds (JVM running for 10.235)
+2019-09-05 21:17:15.818  INFO 9924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 21:17:15.818  INFO 9924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 21:17:15.827  INFO 9924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-05 21:17:15.930 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:17:16.021 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:17:16.084 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:17:16.087 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:17:16.092 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:16.144 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:17:22.889 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.delete           : ==>  Preparing: delete from user where id=? 
+2019-09-05 21:17:22.901 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.delete           : ==> Parameters: 20(Integer)
+2019-09-05 21:17:23.006 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.delete           : <==    Updates: 1
+2019-09-05 21:17:23.017 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:17:23.018 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:17:23.190 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:17:23.191 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:17:23.192 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:23.218 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:17:35.285 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:17:35.288 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:17:35.312 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:17:35.313 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:17:35.315 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:35.380 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 5
+2019-09-05 21:17:37.428 DEBUG 9924 --- [http-nio-8080-exec-2] c.j.m.mapper.StudentMapper.delete        : ==>  Preparing: delete from student where id=? 
+2019-09-05 21:17:37.429 DEBUG 9924 --- [http-nio-8080-exec-2] c.j.m.mapper.StudentMapper.delete        : ==> Parameters: 8(Integer)
+2019-09-05 21:17:37.522 DEBUG 9924 --- [http-nio-8080-exec-2] c.j.m.mapper.StudentMapper.delete        : <==    Updates: 1
+2019-09-05 21:17:37.540 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:17:37.541 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:17:37.581 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:17:37.582 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:17:37.583 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:37.609 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 5
+2019-09-05 21:17:44.875 DEBUG 9924 --- [http-nio-8080-exec-5] c.j.m.mapper.StudentMapper.insert        : ==>  Preparing: insert into student(name,type,wish) values(?,?,?) 
+2019-09-05 21:17:44.890 DEBUG 9924 --- [http-nio-8080-exec-5] c.j.m.mapper.StudentMapper.insert        : ==> Parameters: 小明(String), JAVA工程师(String), 不能学好，就枣不到铝朋友。(String)
+2019-09-05 21:17:44.982 DEBUG 9924 --- [http-nio-8080-exec-5] c.j.m.mapper.StudentMapper.insert        : <==    Updates: 1
+2019-09-05 21:17:44.989 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:17:44.990 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:17:45.016 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:17:45.017 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:17:45.018 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:45.054 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 5
+2019-09-05 21:17:47.169 DEBUG 9924 --- [http-nio-8080-exec-4] c.j.m.mapper.StudentMapper.delete        : ==>  Preparing: delete from student where id=? 
+2019-09-05 21:17:47.171 DEBUG 9924 --- [http-nio-8080-exec-4] c.j.m.mapper.StudentMapper.delete        : ==> Parameters: 11(Integer)
+2019-09-05 21:17:47.502 DEBUG 9924 --- [http-nio-8080-exec-4] c.j.m.mapper.StudentMapper.delete        : <==    Updates: 1
+2019-09-05 21:17:47.512 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:17:47.513 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:17:47.538 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:17:47.539 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:17:47.540 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:47.568 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 5
+2019-09-05 21:17:50.525 DEBUG 9924 --- [http-nio-8080-exec-2] c.j.m.mapper.StudentMapper.delete        : ==>  Preparing: delete from student where id=? 
+2019-09-05 21:17:50.527 DEBUG 9924 --- [http-nio-8080-exec-2] c.j.m.mapper.StudentMapper.delete        : ==> Parameters: 1(Integer)
+2019-09-05 21:17:50.605 DEBUG 9924 --- [http-nio-8080-exec-2] c.j.m.mapper.StudentMapper.delete        : <==    Updates: 1
+2019-09-05 21:17:50.612 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:17:50.612 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:17:50.637 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:17:50.638 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:17:50.639 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:50.685 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 4
+2019-09-05 21:17:52.198 DEBUG 9924 --- [http-nio-8080-exec-5] c.j.m.mapper.StudentMapper.delete        : ==>  Preparing: delete from student where id=? 
+2019-09-05 21:17:52.201 DEBUG 9924 --- [http-nio-8080-exec-5] c.j.m.mapper.StudentMapper.delete        : ==> Parameters: 6(Integer)
+2019-09-05 21:17:52.270 DEBUG 9924 --- [http-nio-8080-exec-5] c.j.m.mapper.StudentMapper.delete        : <==    Updates: 1
+2019-09-05 21:17:52.276 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:17:52.277 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:17:52.298 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:17:52.300 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:17:52.301 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:17:52.360 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 3
+2019-09-05 21:17:55.734  INFO 9924 --- [http-nio-8080-exec-8] c.j.mybatispage.web.StudentController    : 传入id5
+2019-09-05 21:17:55.736 DEBUG 9924 --- [http-nio-8080-exec-8] c.j.m.m.StudentMapper.findStudentById    : ==>  Preparing: select * from student where id=? 
+2019-09-05 21:17:55.738 DEBUG 9924 --- [http-nio-8080-exec-8] c.j.m.m.StudentMapper.findStudentById    : ==> Parameters: 5(Integer)
+2019-09-05 21:17:55.763 DEBUG 9924 --- [http-nio-8080-exec-8] c.j.m.m.StudentMapper.findStudentById    : <==      Total: 1
+2019-09-05 21:18:02.499 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.update        : ==>  Preparing: update student set name=?,type=?,wish=? where id=? 
+2019-09-05 21:18:02.504 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.update        : ==> Parameters: 刘平(String), JAVA工程师(String), 不能学好，就枣不到铝朋友。(String), 5(Integer)
+2019-09-05 21:18:02.564 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.StudentMapper.update        : <==    Updates: 1
+2019-09-05 21:18:02.572 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:18:02.572 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:18:02.600 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:18:02.601 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:18:02.601 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:18:02.624 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 3
+2019-09-05 21:18:06.160 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.delete        : ==>  Preparing: delete from student where id=? 
+2019-09-05 21:18:06.163 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.delete        : ==> Parameters: 5(Integer)
+2019-09-05 21:18:06.232 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.StudentMapper.delete        : <==    Updates: 1
+2019-09-05 21:18:06.239 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.m.StudentMapper.findAll_COUNT      : ==>  Preparing: SELECT count(0) FROM student 
+2019-09-05 21:18:06.240 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.m.StudentMapper.findAll_COUNT      : ==> Parameters: 
+2019-09-05 21:18:06.268 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.m.StudentMapper.findAll_COUNT      : <==      Total: 1
+2019-09-05 21:18:06.270 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student order by id desc limit ?,? 
+2019-09-05 21:18:06.270 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.StudentMapper.findAll       : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:18:06.300 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.StudentMapper.findAll       : <==      Total: 2
+2019-09-05 21:18:12.617 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:18:12.619 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:18:12.698 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:18:12.699 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:18:12.699 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:18:12.738 DEBUG 9924 --- [http-nio-8080-exec-7] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:18:16.383 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.delete           : ==>  Preparing: delete from user where id=? 
+2019-09-05 21:18:16.384 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.delete           : ==> Parameters: 12(Integer)
+2019-09-05 21:18:16.470 DEBUG 9924 --- [http-nio-8080-exec-10] c.j.m.mapper.UserMapper.delete           : <==    Updates: 1
+2019-09-05 21:18:16.476 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:18:16.477 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:18:16.500 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:18:16.500 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:18:16.501 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:18:16.578 DEBUG 9924 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:18:19.129 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.delete           : ==>  Preparing: delete from user where id=? 
+2019-09-05 21:18:19.130 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.delete           : ==> Parameters: 15(Integer)
+2019-09-05 21:18:19.209 DEBUG 9924 --- [http-nio-8080-exec-9] c.j.m.mapper.UserMapper.delete           : <==    Updates: 1
+2019-09-05 21:18:19.218 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:18:19.219 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:18:19.249 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:18:19.250 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:18:19.250 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 0(Integer), 5(Integer)
+2019-09-05 21:18:19.279 DEBUG 9924 --- [http-nio-8080-exec-3] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5
+2019-09-05 21:18:21.506 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : ==>  Preparing: SELECT count(0) FROM user 
+2019-09-05 21:18:21.507 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : ==> Parameters: 
+2019-09-05 21:18:21.531 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll_COUNT    : <==      Total: 1
+2019-09-05 21:18:21.532 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : ==>  Preparing: SELECT * FROM user order by id desc limit ?,? 
+2019-09-05 21:18:21.533 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : ==> Parameters: 5(Integer), 5(Integer)
+2019-09-05 21:18:21.567 DEBUG 9924 --- [http-nio-8080-exec-6] c.j.m.mapper.UserMapper.findAll          : <==      Total: 5

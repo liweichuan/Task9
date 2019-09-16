@@ -1,0 +1,59 @@
+2019-09-03 16:11:44.078  INFO 17096 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : Starting MybatisxmlApplication on DESKTOP-RC36OUC with PID 17096 (C:\Task9\mybatisxml\target\classes started by liweichuan in C:\Task9\mybatisxml)
+2019-09-03 16:11:44.082 DEBUG 17096 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-03 16:11:44.083  INFO 17096 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : The following profiles are active: test
+2019-09-03 16:11:44.189  INFO 17096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-03 16:11:44.190  INFO 17096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-03 16:11:46.559  INFO 17096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-03 16:11:46.615  INFO 17096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-03 16:11:46.616  INFO 17096 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-03 16:11:46.624  INFO 17096 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-03 16:11:46.624  INFO 17096 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-03 16:11:46.625  INFO 17096 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-03 16:11:46.625  INFO 17096 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-03 16:11:46.640  INFO 17096 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-03 16:11:47.024  INFO 17096 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-03 16:11:47.031  INFO 17096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-03 16:11:47.032  INFO 17096 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2841 ms
+2019-09-03 16:11:47.235  INFO 17096 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-03 16:11:49.637  INFO 17096 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-03 16:11:50.133  INFO 17096 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-03 16:11:50.379  INFO 17096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-03 16:11:50.460  INFO 17096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-03 16:11:50.465  INFO 17096 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : Started MybatisxmlApplication in 7.356 seconds (JVM running for 9.737)
+2019-09-03 16:12:10.239  INFO 17096 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-03 16:12:10.239  INFO 17096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-03 16:12:10.250  INFO 17096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-09-03 16:12:10.316 DEBUG 17096 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAllUser      : ==>  Preparing: select * from users 
+2019-09-03 16:12:10.417 DEBUG 17096 --- [http-nio-8080-exec-2] c.j.m.mapper.UserMapper.findAllUser      : ==> Parameters: 
+2019-09-03 16:12:10.494  WARN 17096 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: A query was run and no Result Maps were found for the Mapped Statement 'com.jnshu.mybatisxml.mapper.UserMapper.findAllUser'.  It's likely that neither a Result Type nor a Result Map was specified.]
+2019-09-03 16:17:31.923  INFO 288 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : Starting MybatisxmlApplication on DESKTOP-RC36OUC with PID 288 (C:\Task9\mybatisxml\target\classes started by liweichuan in C:\Task9\mybatisxml)
+2019-09-03 16:17:31.928 DEBUG 288 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-03 16:17:31.930  INFO 288 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : The following profiles are active: test
+2019-09-03 16:17:32.069  INFO 288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-03 16:17:32.069  INFO 288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-03 16:17:33.964  INFO 288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-03 16:17:33.985  INFO 288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-03 16:17:33.985  INFO 288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-03 16:17:33.992  INFO 288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-09-03 16:17:33.992  INFO 288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-09-03 16:17:33.993  INFO 288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-03 16:17:33.993  INFO 288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-03 16:17:33.997  INFO 288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-09-03 16:17:34.285  INFO 288 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-03 16:17:34.290  INFO 288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-03 16:17:34.290  INFO 288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2220 ms
+2019-09-03 16:17:34.370  INFO 288 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-09-03 16:17:36.330  INFO 288 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-03 16:17:36.762  INFO 288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-03 16:17:36.979  INFO 288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-03 16:17:37.042  INFO 288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-03 16:17:37.045  INFO 288 --- [restartedMain] c.j.mybatisxml.MybatisxmlApplication     : Started MybatisxmlApplication in 5.782 seconds (JVM running for 7.209)
+2019-09-03 16:18:25.274  INFO 288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-03 16:18:25.274  INFO 288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-03 16:18:25.281  INFO 288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-09-03 16:18:25.326 DEBUG 288 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAllUser      : ==>  Preparing: select * from users 
+2019-09-03 16:18:25.444 DEBUG 288 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAllUser      : ==> Parameters: 
+2019-09-03 16:18:25.500 DEBUG 288 --- [http-nio-8080-exec-1] c.j.m.mapper.UserMapper.findAllUser      : <==      Total: 13
+2019-09-03 16:18:40.968 DEBUG 288 --- [http-nio-8080-exec-4] c.j.m.mapper.StudentMapper.findAllStu    : ==>  Preparing: select * from student 
+2019-09-03 16:18:40.970 DEBUG 288 --- [http-nio-8080-exec-4] c.j.m.mapper.StudentMapper.findAllStu    : ==> Parameters: 
+2019-09-03 16:18:40.992 DEBUG 288 --- [http-nio-8080-exec-4] c.j.m.mapper.StudentMapper.findAllStu    : <==      Total: 1

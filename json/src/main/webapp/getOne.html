@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>用AJAX以JSON方式获取数据</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<input type="button" value="通过AJAX获取一个Student对象---" id="sender">
+
+<div id="messageDiv"></div>
+
+<script>
+    $('#sender').click(function(){
+        var url="students/3";
+        $.get(
+            url,
+            function(data) {
+                console.log(data);
+                var json=data;
+                var id = json.id;
+                var name = json.name;
+                var type = json.type;
+                var wish = json.wish;
+
+                $("#messageDiv").html("id："+ id + "<br>名字:" +name +"<br>职业:" +type+"<br>立愿:" +wish);
+
+            });
+    });
+</script>
+</body>
+</body>
+</html>

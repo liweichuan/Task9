@@ -1,0 +1,58 @@
+2019-08-31 16:13:37.818  INFO 18696 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Starting JdbcApplicationTests on DESKTOP-RC36OUC with PID 18696 (started by liweichuan in C:\Task9\jdbc)
+2019-08-31 16:13:37.847 DEBUG 18696 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-08-31 16:13:37.848  INFO 18696 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : The following profiles are active: test
+2019-08-31 16:13:44.869  INFO 18696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:13:47.116  INFO 18696 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Started JdbcApplicationTests in 10.121 seconds (JVM running for 11.865)
+2019-08-31 16:13:48.938  INFO 18696 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-31 16:13:49.523 DEBUG 18696 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=12, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:13:49.539 DEBUG 18696 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=12, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:13:50.039  INFO 18696 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:13:50.086  INFO 18696 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-31 16:16:26.428  INFO 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Starting JdbcApplicationTests on DESKTOP-RC36OUC with PID 12380 (started by liweichuan in C:\Task9\jdbc)
+2019-08-31 16:16:26.429 DEBUG 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-08-31 16:16:26.430  INFO 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : The following profiles are active: test
+2019-08-31 16:16:30.199  INFO 12380 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:16:31.233  INFO 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Started JdbcApplicationTests in 5.505 seconds (JVM running for 6.925)
+2019-08-31 16:16:32.442  INFO 12380 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-31 16:16:32.870 DEBUG 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=13, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:16:32.872 DEBUG 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=13, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:16:33.076 DEBUG 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=14, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:16:33.077 DEBUG 12380 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=14, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:16:33.311  INFO 12380 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:16:33.325  INFO 12380 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-31 16:19:10.938  INFO 20124 --- [main] com.jnshu.jdbc.JdbcApplication           : Starting JdbcApplication v0.0.1-SNAPSHOT on DESKTOP-RC36OUC with PID 20124 (C:\Task9\jdbc\target\jdbc-0.0.1-SNAPSHOT.jar started by liweichuan in C:\Task9\jdbc)
+2019-08-31 16:19:10.948 DEBUG 20124 --- [main] com.jnshu.jdbc.JdbcApplication           : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-08-31 16:19:10.950  INFO 20124 --- [main] com.jnshu.jdbc.JdbcApplication           : The following profiles are active: test
+2019-08-31 16:19:14.257  INFO 20124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-31 16:19:14.331  INFO 20124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-31 16:19:14.340  INFO 20124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-31 16:19:14.365  INFO 20124 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-08-31 16:19:14.368  INFO 20124 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-08-31 16:19:14.377  INFO 20124 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-08-31 16:19:14.381  INFO 20124 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-08-31 16:19:14.386  INFO 20124 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-08-31 16:19:16.169  INFO 20124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-31 16:19:16.170  INFO 20124 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5100 ms
+2019-08-31 16:19:16.858  INFO 20124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:19:17.535  INFO 20124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-31 16:19:17.557  INFO 20124 --- [main] com.jnshu.jdbc.JdbcApplication           : Started JdbcApplication in 7.514 seconds (JVM running for 9.486)
+2019-08-31 16:20:00.167  INFO 20124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-31 16:20:00.167  INFO 20124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-31 16:20:00.198  INFO 20124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-08-31 16:22:07.210 DEBUG 20124 --- [http-nio-8080-exec-6] com.jnshu.jdbc.config.LogConfig          : debug:Process in LogController.showLog method
+2019-08-31 16:22:07.211  INFO 20124 --- [http-nio-8080-exec-6] com.jnshu.jdbc.config.LogConfig          : info:Process in LogController.showLog method
+2019-08-31 16:22:07.214  WARN 20124 --- [http-nio-8080-exec-6] com.jnshu.jdbc.config.LogConfig          : warn:Process in LogController.showLog method
+2019-08-31 16:22:07.216 ERROR 20124 --- [http-nio-8080-exec-6] com.jnshu.jdbc.config.LogConfig          : error:Process in LogController.showLog method
+2019-08-31 16:22:31.324  INFO 20124 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:33:52.337  INFO 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Starting JdbcApplicationTests on DESKTOP-RC36OUC with PID 4068 (started by liweichuan in C:\Task9\jdbc)
+2019-08-31 16:33:52.338 DEBUG 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-08-31 16:33:52.339  INFO 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : The following profiles are active: test
+2019-08-31 16:33:57.047  INFO 4068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:33:58.264  INFO 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : Started JdbcApplicationTests in 6.642 seconds (JVM running for 8.206)
+2019-08-31 16:33:59.494  INFO 4068 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-31 16:33:59.906 DEBUG 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=15, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:33:59.909 DEBUG 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=15, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:34:00.130 DEBUG 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=16, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:34:00.131 DEBUG 4068 --- [main] com.jnshu.jdbc.JdbcApplicationTests      : User{id=16, username='tom', password='123456', phone='13584568524'}
+2019-08-31 16:34:00.482  INFO 4068 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-31 16:34:00.500  INFO 4068 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

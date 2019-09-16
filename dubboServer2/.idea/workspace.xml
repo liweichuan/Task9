@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f50bb22-4068-43f5-b303-5c20ac52cb9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../tuscanyRMIService/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuscanyRMIService2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/.idea/dictionaries/liweichuan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/Task9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/client/CalculatorClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/server/CalculatorRMIServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/server/CalculatorServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/service/AddInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/service/CalculatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/service/DivideInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/service/MultiplyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/service/SubtractInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/serviceimpl/AddServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/serviceimpl/CalculatorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/serviceimpl/DivideServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/serviceimpl/MultiplyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/java/com/jnshu/serviceimpl/SubtractServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/src/main/resources/Calculator.composite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/Calculator.composite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/client/CalculatorClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/server/CalculatorRMIServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/service/AddInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/service/CalculatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/service/DivideInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/service/MultiplyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/service/SubtractInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/serviceimpl/AddServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/serviceimpl/CalculatorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/serviceimpl/DivideServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/serviceimpl/MultiplyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task9/target/classes/com/jnshu/serviceimpl/SubtractServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/controller/PersonalPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/controller/PersonalPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/pojo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/pojo/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/MailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/RMIService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/RMIService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/UploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliMailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliMailUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliOssUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliOssUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliPictureUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliPictureUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliRefererUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliRefererUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliSmsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/AliSmsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/CookieUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/DesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/DesUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/IntegerCastUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/IntegerCastUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/LongDataTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/LongDataTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/Md5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/Md5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/MessageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/MessageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/QiNiuOssUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/QiNiuOssUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/StrConvertUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/StrConvertUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/StringCastUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/StringCastUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIClient/target/classes/com/jnshu/util/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/src/main/java/com/jnshu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/pojo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/pojo/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/server/RmiServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/server/RmiServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/MailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/UploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/MailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/MessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/RedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/RedisServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/UploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/UploadServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/serviceimpl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliMailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliMailUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliOssUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliOssUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliPictureUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliPictureUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliRefererUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliRefererUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliSmsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/AliSmsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/DesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/DesUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/IntegerCastUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/IntegerCastUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/LongDataTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/LongDataTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/Md5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/Md5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/MessageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/MessageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/QiNiuOssUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/QiNiuOssUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/StrConvertUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/StrConvertUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/classes/com/jnshu/util/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/original-tuscanyRMIService-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/original-tuscanyRMIService-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService/target/tuscanyRMIService-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService/target/tuscanyRMIService-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/UploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/src/main/java/com/jnshu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/pojo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/pojo/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/server/RmiServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/server/RmiServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/MailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/UploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/MailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/MessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/RedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/RedisServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/UploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/UploadServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/serviceimpl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliMailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliMailUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliOssUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliOssUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliPictureUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliPictureUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliRefererUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliRefererUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliSmsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/AliSmsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/DesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/DesUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/IntegerCastUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/IntegerCastUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/LongDataTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/LongDataTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/Md5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/Md5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/MessageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/MessageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/QiNiuOssUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/QiNiuOssUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/StrConvertUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/StrConvertUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/classes/com/jnshu/util/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/original-tuscanyRMIService2-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/original-tuscanyRMIService2-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuscanyRMIService2/target/tuscanyRMIService2-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../tuscanyRMIService2/target/tuscanyRMIService2-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="77" column="74" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/server/Provider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/util/DateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="351" column="41" selection-start-line="351" selection-start-column="41" selection-end-line="351" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+              <folding>
+                <element signature="e#4785#4786#0" expanded="true" />
+                <element signature="e#4813#4814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/jnshu/serviceimpl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/provider.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubboServer2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubboServer2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/liweichuan.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="383" />
+    <option name="y" value="13" />
+    <option name="width" value="915" />
+    <option name="height" value="711" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceimpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubboServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubboServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubboClient" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Task9\dubboServer2\src\main\resources" />
+      <recent name="C:\Task9\dubboServer2\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.server.Provider" />
+      <module name="dubboServer2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Provider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f50bb22-4068-43f5-b303-5c20ac52cb9f" name="Default Changelist" comment="" />
+      <created>1568599619520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568599619520</updated>
+      <workItem from="1568599628005" duration="7743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7743000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7693548" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="right" id="Maven" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/pojo/Result.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/util/AliMailUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/util/QiNiuOssUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/UploadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="77" column="74" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+          <folding>
+            <element signature="e#4785#4786#0" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/server/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="351" column="41" selection-start-line="351" selection-start-column="41" selection-end-line="351" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
